@@ -4,15 +4,7 @@ import re
 import emoji
 import pandas as pd
 
-tweets = []
-with open('data/tweets.txt', 'r', encoding='utf-8') as f:
-    for line in f:
-        text = line.strip()
-        if text:  # пропускаем пустые строки
-            tweets.append(text)
 
-df = pd.DataFrame(tweets, columns=['text'])
-print(df.head())
 # Очистка и нормализация текста
 
 def preprocess_tweet(text, remove_emoji=True):
@@ -46,8 +38,4 @@ def preprocess_tweet(text, remove_emoji=True):
     return tokens
 
 
-# Применяем функцию к колонке 'text'
-df['tokens'] = df['text'].apply(preprocess_tweet)
 
-# Посмотреть результат
-print(df[['text', 'tokens']].head())
