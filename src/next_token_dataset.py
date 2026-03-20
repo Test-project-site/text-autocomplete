@@ -1,7 +1,3 @@
-import torch
-from torch.utils.data import Dataset, DataLoader
-from torch.nn.utils.rnn import pad_sequence
-
 # ============================================================
 # 1. DATASET КЛАСС
 # ============================================================
