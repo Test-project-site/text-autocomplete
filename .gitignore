@@ -1,0 +1,19 @@
+# Models
+*.pth
+*.bin
+*.pt
+best_*.pth
+
+# Data
+data/*.txt
+data/*.csv
+data/splits/
+
+# Results
+results/
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
