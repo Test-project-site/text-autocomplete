@@ -5,10 +5,6 @@ venv/
 __pycache__/
 *.pyc
 
-# === ДАННЫЕ И ВЕСА ===
-data/
-*.txt
-*.bin
 
 # === РЕЗУЛЬТАТЫ ===
 results/
