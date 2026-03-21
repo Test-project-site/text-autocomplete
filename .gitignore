@@ -1,0 +1,23 @@
+# === ВИРТУАЛЬНЫЕ ОКРУЖЕНИЯ ===
+.conda/
+env/
+venv/
+__pycache__/
+*.pyc
+
+# === ДАННЫЕ И ВЕСА ===
+data/
+*.csv
+*.txt
+*.pth
+*.bin
+
+# === РЕЗУЛЬТАТЫ ===
+results/
+*.log
+
+# === JUPYTER & IDE ===
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.ipynb
