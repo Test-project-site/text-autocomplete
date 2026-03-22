@@ -81,3 +81,4 @@ evaluate==0.4.4
 nltk==3.9.1
 absl-py==2.3.0
 rouge_score==0.1.2
+emoji>=1.7.0
